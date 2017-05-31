@@ -1,5 +1,7 @@
 package com.lico.study.protostuff;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.*;
@@ -17,6 +19,9 @@ import static org.testng.AssertJUnit.assertEquals;
  */
 public class test {
 
+    private static School source;
+    private static School target;
+
     /**
      * 产生一个随机的字符串
      */
@@ -32,44 +37,39 @@ public class test {
         return buf.toString();
     }
 
+    @BeforeTest
+    public void init() {
+        source = new School("lico", "hz");
+        System.out.println("source >> " + source.toString());
+
+    }
+
     @Test
     public void protostuff() {
-        School source = new School("lico", "hz");
-        System.out.println("source >> " + source.toString());
         byte[] data = ProtostuffUtil.serialize(source);
         if (data == null) {
-            System.err.println("序列化失败");
             return;
         }
-        School target = ProtostuffUtil.deserialize(data, School.class);
-        if (target == null) {
-            System.err.println("反序列化失败");
-            return;
-        }
-        System.out.println("target >> " + target.toString());
-
-        assertEquals(source.getName(), target.getName());
-        assertEquals(source.getAddress(), target.getAddress());
+        target = ProtostuffUtil.deserialize(data, School.class);
     }
 
     @Test
     public void java() throws IOException, ClassNotFoundException {
-
-        School source = new School("lico", "hz");
-        System.out.println("source >> " + source.toString());
-
         ByteArrayOutputStream os = new ByteArrayOutputStream();
         ObjectOutputStream out = new ObjectOutputStream(os);
         out.writeObject(source);
         byte[] data = os.toByteArray();
         if (data == null) {
-            System.err.println("序列化失败");
             return;
         }
         ObjectInputStream in = new ObjectInputStream(new ByteArrayInputStream(data));
-        School target = (School) in.readObject();
+        target = (School) in.readObject();
+    }
+
+    @AfterTest
+    public void check() {
         if (target == null) {
-            System.err.println("反序列化失败");
+            System.err.println("序列化失败");
             return;
         }
         System.out.println("target >> " + target.toString());
