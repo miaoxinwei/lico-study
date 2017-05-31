@@ -1,5 +1,7 @@
 package com.lico.study.protostuff;
 
+import java.io.Serializable;
+
 /**
  * 项目：lico-study
  * 包名：com.lico.study.protostuff
@@ -7,7 +9,9 @@ package com.lico.study.protostuff;
  * 时间：2017-05-31
  * 作者：呱牛
  */
-public class School {
+public class School implements Serializable {
+
+    private static final long serialVersionUID = -1527472841243866233L;
 
     private String name;
     private String address;

@@ -2,6 +2,7 @@ package com.lico.study.protostuff;
 
 import org.testng.annotations.Test;
 
+import java.io.*;
 import java.util.Random;
 
 import static org.testng.AssertJUnit.assertEquals;
@@ -32,7 +33,7 @@ public class test {
     }
 
     @Test
-    public void run() {
+    public void protostuff() {
         School source = new School("lico", "hz");
         System.out.println("source >> " + source.toString());
         byte[] data = ProtostuffUtil.serialize(source);
@@ -41,6 +42,32 @@ public class test {
             return;
         }
         School target = ProtostuffUtil.deserialize(data, School.class);
+        if (target == null) {
+            System.err.println("反序列化失败");
+            return;
+        }
+        System.out.println("target >> " + target.toString());
+
+        assertEquals(source.getName(), target.getName());
+        assertEquals(source.getAddress(), target.getAddress());
+    }
+
+    @Test
+    public void java() throws IOException, ClassNotFoundException {
+
+        School source = new School("lico", "hz");
+        System.out.println("source >> " + source.toString());
+
+        ByteArrayOutputStream os = new ByteArrayOutputStream();
+        ObjectOutputStream out = new ObjectOutputStream(os);
+        out.writeObject(source);
+        byte[] data = os.toByteArray();
+        if (data == null) {
+            System.err.println("序列化失败");
+            return;
+        }
+        ObjectInputStream in = new ObjectInputStream(new ByteArrayInputStream(data));
+        School target = (School) in.readObject();
         if (target == null) {
             System.err.println("反序列化失败");
             return;
