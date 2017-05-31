@@ -1,5 +1,6 @@
 package com.lico.study.protostuff;
 
+import com.lico.study.protostuff.bean.School;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;

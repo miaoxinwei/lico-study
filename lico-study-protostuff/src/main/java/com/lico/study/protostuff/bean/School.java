@@ -1,4 +1,4 @@
-package com.lico.study.protostuff;
+package com.lico.study.protostuff.bean;
 
 import java.io.Serializable;
 
