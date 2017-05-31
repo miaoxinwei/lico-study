@@ -7,4 +7,4 @@
 
 ## 学习列表
 
-1. java序列化工具 [protostuff](https://github.com/protostuff/protostuff) - A serialization library with built-in support for forward-backward compatibility (schema evolution) and validation. &emsp; -- 2017.05.31
+1. java序列化工具 [protostuff](https://github.com/protostuff/protostuff) - A serialization library with built-in support for forward-backward compatibility (schema evolution) and validation. &emsp; *-- 2017.05.31*
