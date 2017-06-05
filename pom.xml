@@ -12,6 +12,7 @@
         <module>lico-study-protostuff</module>
         <module>lico-study-orika</module>
         <module>lico-study-lombok</module>
+        <module>lico-study-design-pattern</module>
     </modules>
 
     <name>lico-study</name>

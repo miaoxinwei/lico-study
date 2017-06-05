@@ -18,7 +18,7 @@ public class BuilderExample2 {
     private int age;
     private Set<String> occupations;
 
-    BuilderExample2(String name, int age, Set<String> occupations) {
+    private BuilderExample2(String name, int age, Set<String> occupations) {
         this.name = name;
         this.age = age;
         this.occupations = occupations;
