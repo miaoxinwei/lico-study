@@ -1,9 +1,14 @@
 # lico-study
 
+![](https://img.shields.io/badge/study-5-brightgreen.svg)
+
+
+<br>
+
 > **学而不思则罔，思而不学则殆。  &emsp;&emsp;&emsp;&emsp; - 孔子**
 
-</br>
-</br>
+<br>
+<br>
 
 ## 学习列表
 
