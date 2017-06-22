@@ -14,6 +14,7 @@
         <module>lico-study-lombok</module>
         <module>lico-study-design-pattern</module>
         <module>lico-study-lambda</module>
+        <module>lico-study-mbean</module>
     </modules>
 
     <properties>
