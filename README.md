@@ -1,6 +1,6 @@
 # lico-study
 
-![](https://img.shields.io/badge/study-6-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-java__MBean-brightgreen.svg?style=flat)
+![](https://img.shields.io/badge/study-7-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-java__jstack-brightgreen.svg?style=flat)
 
 
 <br>
@@ -18,8 +18,10 @@
 
 3. Java 简化代码工具 [Lombok](https://github.com/rzwitserloot/lombok) - Project Lombok makes java a spicier language by adding 'handlers' that know how to build and compile simple, boilerplate-free, not-quite-java code. &emsp; @data,@log(@slf4j),@NonNull,@ToString,@NoArgsConstructor,@AllArgsConstructor,@Value,@Builder &emsp; *-- 2017.06.05*
 
-4. java 设计模式 - Singleton &emsp; *-- 2017.06.05*
+4. Java 设计模式 - Singleton &emsp; *-- 2017.06.05*
 
-5. java8 [Lambda](http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html) &emsp; *-- 2017.06.15*
+5. Java8 [Lambda](http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html) &emsp; *-- 2017.06.15*
 
-6. java MBean,  jconsole &emsp; *-- 2017.06.22*
+6. Java MBean, Java命令 jconsole &emsp; *-- 2017.06.22*
+
+7. Java命令 jstack &emsp; *-- 2017.06.22*

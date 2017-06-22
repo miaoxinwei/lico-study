@@ -15,6 +15,7 @@
         <module>lico-study-design-pattern</module>
         <module>lico-study-lambda</module>
         <module>lico-study-mbean</module>
+        <module>lico-study-jstack</module>
     </modules>
 
     <properties>
