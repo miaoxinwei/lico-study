@@ -1,6 +1,6 @@
 # lico-study
 
-![](https://img.shields.io/badge/study-5-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-java8__lambda-brightgreen.svg?style=flat)
+![](https://img.shields.io/badge/study-6-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-java__MBean-brightgreen.svg?style=flat)
 
 
 <br>
