@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lico-study-jstack</artifactId>
+    <artifactId>jstack</artifactId>
     <packaging>jar</packaging>
 
-    <name>lico-study-jstack</name>
+    <name>jstack</name>
     <url>http://maven.apache.org</url>
 
 

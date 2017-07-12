@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lico-study-design-pattern</artifactId>
+    <artifactId>lombok</artifactId>
     <packaging>jar</packaging>
 
-    <name>lico-study-design-pattern</name>
+    <name>lombok</name>
     <url>http://maven.apache.org</url>
 
 </project>

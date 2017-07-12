@@ -9,13 +9,13 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>lico-study-protostuff</module>
-        <module>lico-study-orika</module>
-        <module>lico-study-lombok</module>
-        <module>lico-study-design-pattern</module>
-        <module>lico-study-lambda</module>
-        <module>lico-study-mbean</module>
-        <module>lico-study-jstack</module>
+        <module>protostuff</module>
+        <module>orika</module>
+        <module>lombok</module>
+        <module>design-pattern</module>
+        <module>lambda</module>
+        <module>mbean</module>
+        <module>jstack</module>
     </modules>
 
     <properties>

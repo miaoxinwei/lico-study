@@ -9,18 +9,26 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lico-study-mbean</artifactId>
+    <artifactId>protostuff</artifactId>
     <packaging>jar</packaging>
 
-    <name>lico-study-mbean</name>
+    <name>protostuff</name>
     <url>http://maven.apache.org</url>
+
+    <properties>
+        <protostuff.version>1.5.5</protostuff.version>
+    </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.softee</groupId>
-            <artifactId>pojo-mbean</artifactId>
-            <version>1.1</version>
+            <groupId>io.protostuff</groupId>
+            <artifactId>protostuff-core</artifactId>
+            <version>${protostuff.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.protostuff</groupId>
+            <artifactId>protostuff-runtime</artifactId>
+            <version>${protostuff.version}</version>
         </dependency>
     </dependencies>
-
 </project>
