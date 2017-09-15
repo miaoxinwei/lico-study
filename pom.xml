@@ -16,16 +16,22 @@
         <module>lambda</module>
         <module>mbean</module>
         <module>jstack</module>
+        <module>zookeeper</module>
     </modules>
 
     <properties>
-        <kotlin.version>1.1.4</kotlin.version>
+        <kotlin.version>1.1.4-3</kotlin.version>
     </properties>
 
     <name>lico-study</name>
     <url>http://maven.apache.org</url>
 
     <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>23.0</version>
+        </dependency>
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
