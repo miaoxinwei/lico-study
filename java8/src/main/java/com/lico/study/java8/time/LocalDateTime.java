@@ -14,10 +14,10 @@ import java.time.format.DateTimeFormatter;
  */
 public class LocalDateTime {
 
-    public static final Clock CLOCK = Clock.systemDefaultZone();
-    public static final DateTimeFormatter FORMATTER1 = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
-    public static final DateTimeFormatter FORMATTER2 = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-    public static final DateTimeFormatter FORMATTER3 = DateTimeFormatter.ofPattern("yyyyMMdd");
+    private static final Clock CLOCK = Clock.systemDefaultZone();
+    private static final DateTimeFormatter FORMATTER1 = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
+    private static final DateTimeFormatter FORMATTER2 = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+    private static final DateTimeFormatter FORMATTER3 = DateTimeFormatter.ofPattern("yyyyMMdd");
 
     public static void main(String[] args) {
         long now = CLOCK.millis();

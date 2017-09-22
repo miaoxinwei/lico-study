@@ -11,7 +11,7 @@ import java.time.ZoneId;
  */
 public class Clock {
 
-    public static final java.time.Clock CLOCK = java.time.Clock.systemDefaultZone();
+    private static final java.time.Clock CLOCK = java.time.Clock.systemDefaultZone();
 
     public static void main(String[] args) throws InterruptedException {
         long now = System.currentTimeMillis();
