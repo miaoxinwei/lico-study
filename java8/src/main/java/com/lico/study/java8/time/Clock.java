@@ -11,7 +11,10 @@ import java.time.ZoneId;
  */
 public class Clock {
 
+    public static final java.time.Clock CLOCK = java.time.Clock.systemDefaultZone();
+
     public static void main(String[] args) throws InterruptedException {
+        long now = System.currentTimeMillis();
         java.time.Clock clock = java.time.Clock.systemUTC();
         java.time.Clock clock1 = java.time.Clock.systemDefaultZone();
         java.time.Clock clock2 = java.time.Clock.system(ZoneId.systemDefault());
@@ -21,14 +24,18 @@ public class Clock {
         System.err.println(clock1);
         System.err.println(clock2);
         System.err.println(clock3);
+        System.err.println("---------------------------");
         System.err.println(clock.instant());
         System.err.println(clock1.instant());
         System.err.println(clock2.instant());
         System.err.println(clock3.instant());
+        System.err.println("---------------------------");
         System.err.println(clock.getZone());
         System.err.println(clock1.getZone());
         System.err.println(clock2.getZone());
         System.err.println(clock3.getZone());
+        System.err.println("---------------------------");
+        System.err.println(now);
         System.err.println(clock.millis());
         System.err.println(clock1.millis());
         System.err.println(clock2.millis());
@@ -36,7 +43,7 @@ public class Clock {
         System.err.println("---------------------------");
 
         for (int i = 0; i < 5; i++) {
-            System.err.println(clock3.millis());
+            System.err.println(CLOCK.millis());
             Thread.sleep(1000);
         }
     }
