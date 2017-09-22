@@ -59,7 +59,7 @@ public class ProtostuffUtil {
      */
     public static <T> T deserialize(byte[] data, Class<T> cls) {
         try {
-            T obj = cls.newInstance();
+            T obj = cls.getDeclaredConstructor().newInstance();
             Schema<T> schema = getSchema(cls);
             ProtostuffIOUtil.mergeFrom(data, obj, schema);
             return obj;
