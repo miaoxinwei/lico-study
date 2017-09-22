@@ -13,10 +13,11 @@
         <module>orika</module>
         <module>lombok</module>
         <module>design-pattern</module>
-        <module>lambda</module>
         <module>mbean</module>
         <module>jstack</module>
         <module>zookeeper</module>
+        <module>java9</module>
+        <module>java8</module>
     </modules>
 
     <properties>
@@ -46,11 +47,6 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.38</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.18</version>
         </dependency>
 
         <dependency>

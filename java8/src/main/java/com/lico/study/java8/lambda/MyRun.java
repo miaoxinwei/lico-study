@@ -1,4 +1,4 @@
-package com.lico.study.lambda;
+package com.lico.study.java8.lambda;
 
 /**
  * 项目：lico-study

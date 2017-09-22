@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lambda</artifactId>
+    <artifactId>java8</artifactId>
     <packaging>jar</packaging>
 
-    <name>lambda</name>
+    <name>java8</name>
     <url>http://maven.apache.org</url>
 
 
