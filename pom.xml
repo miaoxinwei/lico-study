@@ -18,6 +18,7 @@
         <module>zookeeper</module>
         <module>java9</module>
         <module>java8</module>
+        <module>rxjava</module>
     </modules>
 
     <properties>
