@@ -22,7 +22,7 @@
     </modules>
 
     <properties>
-        <kotlin.version>1.1.4-3</kotlin.version>
+        <kotlin.version>1.1.51</kotlin.version>
     </properties>
 
     <name>lico-study</name>
@@ -32,7 +32,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>23.0</version>
+            <version>23.3-jre</version>
         </dependency>
         <dependency>
             <groupId>joda-time</groupId>
@@ -47,7 +47,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.38</version>
+            <version>1.2.39</version>
         </dependency>
 
         <dependency>
