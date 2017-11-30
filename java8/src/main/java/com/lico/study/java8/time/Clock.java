@@ -18,7 +18,7 @@ public class Clock {
         java.time.Clock clock = java.time.Clock.systemUTC();
         java.time.Clock clock1 = java.time.Clock.systemDefaultZone();
         java.time.Clock clock2 = java.time.Clock.system(ZoneId.systemDefault());
-        java.time.Clock clock3 = java.time.Clock.tickMillis(ZoneId.of(ZoneId.SHORT_IDS.get("CTT")));
+        java.time.Clock clock3 = java.time.Clock.tickSeconds(ZoneId.of(ZoneId.SHORT_IDS.get("CTT")));
 
         System.err.println(clock);
         System.err.println(clock1);

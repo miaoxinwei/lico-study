@@ -11,5 +11,6 @@ package com.lico.study.java8.lambda;
 @FunctionalInterface
 public interface MyRun extends Runnable {
 
-    public abstract void run();
+    @Override
+    void run();
 }

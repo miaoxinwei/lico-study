@@ -1,6 +1,6 @@
 # lico-study
 
-![](https://img.shields.io/badge/study-8-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-java__8-brightgreen.svg?style=flat)
+![](https://img.shields.io/badge/study-10-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-bitmap-brightgreen.svg?style=flat)
 
 
 <br>
@@ -26,4 +26,8 @@
 
 7. Java命令 jstack &emsp; *-- 2017.06.22*
 
-8. Java8 time &emsp; *-- 2017.09.22*
+8. Java8 time, interface &emsp; *-- 2017.09.22*
+
+9. Java9 module &emsp; *-- 2017.09.27*
+
+10. bitmap &emsp; *-- 2017.11.14*

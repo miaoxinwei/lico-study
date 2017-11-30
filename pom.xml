@@ -19,10 +19,11 @@
         <module>java9</module>
         <module>java8</module>
         <module>rxjava</module>
+        <module>bitmap</module>
     </modules>
 
     <properties>
-        <kotlin.version>1.1.51</kotlin.version>
+        <kotlin.version>1.1.60</kotlin.version>
     </properties>
 
     <name>lico-study</name>
@@ -32,7 +33,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>23.3-jre</version>
+            <version>23.4-jre</version>
         </dependency>
         <dependency>
             <groupId>joda-time</groupId>
@@ -45,9 +46,14 @@
             <version>6.11</version>
         </dependency>
         <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.39</version>
+            <version>1.2.40</version>
         </dependency>
 
         <dependency>
@@ -91,8 +97,8 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <configuration>
-                        <source>9</source>
-                        <target>9</target>
+                        <source>1.8</source>
+                        <target>1.8</target>
                         <encoding>UTF-8</encoding>
                     </configuration>
                     <executions>
