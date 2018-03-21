@@ -1,6 +1,6 @@
 # lico-study
 
-![](https://img.shields.io/badge/study-10-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-bitmap-brightgreen.svg?style=flat)
+![](https://img.shields.io/badge/study-11-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-proxy-brightgreen.svg?style=flat)
 
 
 <br>
