@@ -14,14 +14,15 @@ public class ObserverTest {
 
     public static void main(String[] args) {
         //创建Observer
-        Observer<String> observer = new Observer<>() {
+        Observer<String> observer = new Observer<String>() {
             @Override
             public void onSubscribe(Disposable disposable) {
 
             }
 
             @Override
-            public void onNext(String s) {
+            public void onNext(String o) {
+
             }
 
             @Override
