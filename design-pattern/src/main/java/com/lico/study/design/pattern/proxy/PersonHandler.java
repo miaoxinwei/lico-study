@@ -1,4 +1,4 @@
-package com.lico.study.proxy;
+package com.lico.study.design.pattern.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -13,9 +13,9 @@ import java.lang.reflect.Proxy;
  */
 public class PersonHandler<T> implements InvocationHandler {
 
-    private Object o;
+    private T o;
 
-    public PersonHandler(Object o) {
+    public PersonHandler(T o) {
         this.o = o;
     }
 
@@ -25,9 +25,9 @@ public class PersonHandler<T> implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        System.err.println("person start:");
+        System.err.println("proxy start:");
         Object result = method.invoke(o, args);
-        System.err.println("person end.");
+        System.err.println("proxy end.");
         return result;
     }
 }

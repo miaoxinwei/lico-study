@@ -22,7 +22,7 @@
         <module>bitmap</module>
         <module>metrics</module>
         <module>leetcode</module>
-        <module>proxy</module>
+        <module>concurrent</module>
     </modules>
 
     <properties>

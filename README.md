@@ -1,6 +1,6 @@
 # lico-study
 
-![](https://img.shields.io/badge/study-11-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-proxy-brightgreen.svg?style=flat)
+![](https://img.shields.io/badge/study-12-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-proxy-brightgreen.svg?style=flat)
 
 
 <br>
@@ -33,3 +33,5 @@
 10. bitmap &emsp; *-- 2017.11.14*
 
 11. Java 设计模式 - 动态代理 &emsp; *-- 2018.03.21*
+
+12. Java concurrent &emsp; *-- 2018.04.18*

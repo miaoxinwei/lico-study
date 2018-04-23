@@ -1,4 +1,4 @@
-package com.lico.study.proxy;
+package com.lico.study.design.pattern.proxy;
 
 /**
  * 项目：lico-study
@@ -11,6 +11,7 @@ public class Test {
 
     public static void main(String[] args) {
         Person person = new Master();
+        person.say();
         PersonHandler<Person> personHandler = new PersonHandler<>(person);
         person = personHandler.proxy();
         person.say();

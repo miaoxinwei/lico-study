@@ -1,4 +1,4 @@
-package com.lico.study.proxy;
+package com.lico.study.design.pattern.proxy;
 
 /**
  * 项目：lico-study
