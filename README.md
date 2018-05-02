@@ -1,6 +1,6 @@
 # lico-study
 
-![](https://img.shields.io/badge/study-12-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-proxy-brightgreen.svg?style=flat)
+![](https://img.shields.io/badge/study-13-blue.svg?style=flat) ![](https://img.shields.io/badge/last_study-proxy-brightgreen.svg?style=flat)
 
 
 <br>
@@ -35,3 +35,5 @@
 11. Java 设计模式 - 动态代理 &emsp; *-- 2018.03.21*
 
 12. Java concurrent &emsp; *-- 2018.04.18*
+
+13. Java 设计模式 - factory &emsp; *-- 2018.05.01*
