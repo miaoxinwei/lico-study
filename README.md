@@ -36,4 +36,4 @@
 
 12. Java concurrent &emsp; *-- 2018.04.18*
 
-13. Java 设计模式 - factory &emsp; *-- 2018.05.01*
+13. Java 设计模式 - factory &emsp; *-- 2018.05.02*
